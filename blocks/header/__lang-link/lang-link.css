@@ -3,13 +3,15 @@
     line-height: 28px;
     font-weight: normal;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .lang-link:first-child {
     text-decoration: underline;
+    margin-right: 18px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 390px) {
     .lang-link {
         font-size: 18px;
         line-height: 20px;

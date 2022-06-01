@@ -1,6 +1,10 @@
 .lang-links {
-    width: 77px;
-    height: 28px;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 25px;
 }
+
+@media screen and (max-width: 390px) {
+    .lang-links {
+        justify-content: center;
+    }
+}
+
