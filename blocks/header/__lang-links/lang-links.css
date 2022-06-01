@@ -1,0 +1,6 @@
+.lang-links {
+    width: 77px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
