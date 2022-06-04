@@ -1,0 +1,10 @@
+.header__lang-links {
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 390px) {
+    .header__lang-links {
+        justify-content: center;
+    }
+}
+

@@ -9,6 +9,7 @@
 @media screen and (max-width: 768px) {
     .footer {
         width: calc(100% - 24px*2);
+        margin-top: 88px
     }
 }
 @media screen and (max-width: 680px) {
@@ -16,14 +17,6 @@
         flex-direction: column;
         justify-content: flex-start;
         width: 100%;
-        margin: 0;
-    }
-}
-@media screen and (max-width: 320px) {
-    .footer {
-        flex-direction: column;
-        justify-content: flex-start;
-        width: 100%;
-        margin: 0;
+        margin: 0 0 24px 0;
     }
 }
