@@ -4,11 +4,24 @@ line-height: 22px;
 color: #FFFFFF;
 text-align: center;
 z-index: 2;
+margin: 0 412px 245px 412px;
+}
+
+@media screen and (max-width: 1150px) {
+   .cover__subtitle {
+       margin: 0 332px 195px 332px;
+    }
+}
+@media screen and (max-width: 810px) {
+    .cover__subtitle {
+        margin: 0 104px 213px 104px;
+}
 }
 
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
+        margin: 0 16px 33px 16px;
     }
 }
