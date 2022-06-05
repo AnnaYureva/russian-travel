@@ -2,9 +2,5 @@
     padding: 0;
     list-style-type: none;
     color: #FFFFFF;
-}
-@media screen and (max-width: 320px) {
-    .intro__list {
-        margin: 0;
-    }
+    margin: 0;
 }
