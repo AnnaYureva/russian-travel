@@ -5,27 +5,15 @@
     line-height: 76px;
     text-align: center;
     z-index: 1;
-    margin: 245px 312px 32px 312px;
+    margin: 0 0 32px 0;
     opacity: 1;
+    max-width: 560px;
 }
-
-@media screen and (max-width: 1150px) {
-  .cover__title {
-    margin: 195px 232px 32px 232px;
-  }
-}
-
-@media screen and (max-width: 1150px) {
-   .cover__title {
-      margin: 115px 104px 32px 104px;
-   }
-  }
 
 @media screen and (max-width: 510px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 33px 16px 16px 16px;
-
+    max-width: 288px;
   }
 }
